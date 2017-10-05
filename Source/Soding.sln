@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soding", "Soding\Soding.csproj", "{7AC8C056-14FA-4A1F-8C17-0692407C27B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soding.Tests", "Soding.Tests\Soding.Tests.csproj", "{74A60FFD-875F-4B46-9DD1-6AA79BFFE5DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soding.Entities", "Soding.Entities\Soding.Entities.csproj", "{CBBEC40C-508B-4C77-A619-A07435D5F101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soding.Service", "Soding.Service\Soding.Service.csproj", "{DD97008B-83DB-43AE-9D34-F4D0DFDD8FBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AC8C056-14FA-4A1F-8C17-0692407C27B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC8C056-14FA-4A1F-8C17-0692407C27B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC8C056-14FA-4A1F-8C17-0692407C27B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC8C056-14FA-4A1F-8C17-0692407C27B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A60FFD-875F-4B46-9DD1-6AA79BFFE5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A60FFD-875F-4B46-9DD1-6AA79BFFE5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A60FFD-875F-4B46-9DD1-6AA79BFFE5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A60FFD-875F-4B46-9DD1-6AA79BFFE5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBEC40C-508B-4C77-A619-A07435D5F101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBEC40C-508B-4C77-A619-A07435D5F101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBEC40C-508B-4C77-A619-A07435D5F101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBEC40C-508B-4C77-A619-A07435D5F101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD97008B-83DB-43AE-9D34-F4D0DFDD8FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD97008B-83DB-43AE-9D34-F4D0DFDD8FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD97008B-83DB-43AE-9D34-F4D0DFDD8FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD97008B-83DB-43AE-9D34-F4D0DFDD8FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
