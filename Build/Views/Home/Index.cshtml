@@ -1,0 +1,78 @@
+﻿<div ng-controller="ProjectCtrl">
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="panel panel-default margin-top-15">
+                <div class="panel-body">
+                    <form class="form-inline">
+
+                        <input type="hidden" id="Id" name="Id" data-ng-model="Project.Id">
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="email">Name</label>
+                                    <input type="text" class="form-control" id="Name" name="Name" data-ng-model="Project.Name">
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label for="pwd">Status:</label>
+
+                                    <select class="form-control" name="Status" id="Status" data-ng-model="Project.Status" ng-options="value.id as value.name for (key, value) in StatusList" >
+                                        @*<option value="1" selected="selected">Active</option>
+                                        <option value="2">Delete</option>*@
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" class="btn btn-default btn-primary" ng-click="AddUpdateProject()" style="margin-top:23px;">Submit</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-info">
+        {{ message }}
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">Projects</div>
+                <div class="panel-body">
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Status</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="project in ProjectList">
+                               
+                                 <td>
+                                    {{project.Name}}
+                                </td>
+                                <td>
+                                    {{project.Status}}
+                                </td>
+
+                                <td>
+                                    <span ng-click="EditRow(project.Id)" class="btn btn-primary">Edit</span>
+                                    <span ng-click="DeleteRow(project.Id)" class="btn btn-danger">Delete</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
