@@ -26,7 +26,9 @@
             dateTime: new Date()
         };
 
-        postData(JSON.stringify(deviceInfo));
+        console.log(deviceInfo);
+
+        //postData(JSON.stringify(deviceInfo));
     }
 
     function extendDefaults(source, properties) {
