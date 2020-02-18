@@ -1,14 +1,56 @@
-<mxfile host="www.draw.io" modified="2020-02-18T13:17:59.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="TuTEV_nr4c9o8KUM3aBb" version="12.7.1" type="github">
+<mxfile host="www.draw.io" modified="2020-02-18T13:35:41.288Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="E0mOVTOZiHVqGbMjVm0b" version="12.7.1" type="github">
   <diagram id="GqDxuVX-_kG6WUaX6dON" name="Page-1">
     <mxGraphModel dx="854" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MxhjkGYFFgYxlKss-_g9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="40" width="490" height="50" as="geometry" />
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.909;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;fontSize=14;" edge="1" parent="1" source="MxhjkGYFFgYxlKss-_g9-1" target="MxhjkGYFFgYxlKss-_g9-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MxhjkGYFFgYxlKss-_g9-2" value="Client Stores" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="315" y="18" width="120" height="20" as="geometry" />
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="64" width="490" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-2" value="Client Stores" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="315" y="42" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-7" value="PHP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="150" y="79" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-8" value=".NET" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="210" y="79" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-9" value="Python" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="275" y="79" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-10" value="Javascript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="355" y="79" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-11" value="E-Commerce CMS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="428" y="79" width="155" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-14" value="CartRight Transaction Pixel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="204" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.91;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;fontSize=14;" edge="1" parent="1" source="MxhjkGYFFgYxlKss-_g9-17" target="MxhjkGYFFgYxlKss-_g9-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="229" width="445" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-19" value="Javascript based code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="170" y="236" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-20" value="This code will not able to control over the backend data &amp;amp; operations of the store app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="170" y="286" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-22" value="ASP.NET CORE API (Back-end)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="404" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-23" value="CartRight Transaction Pixel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="382" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MxhjkGYFFgYxlKss-_g9-28" value="&amp;nbsp; &amp;nbsp;CartRight Transaction Pixel&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;labelBackgroundColor=#336600;fontColor=#FFFFFF;spacingTop=1;spacing=2;spacingLeft=-1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="10" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
